@@ -13,3 +13,8 @@ data = {
 myvar = pd.DataFrame(data)
 
 print(myvar)
+
+# Mean
+print(sum(myvar["calories"])/len(myvar["calories"]))
+
+print(myvar.calories) # Is it like a dictonary?
